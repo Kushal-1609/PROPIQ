@@ -1125,7 +1125,7 @@
        CONFIG
     ============================================================ */
     const CONFIG = {
-      apiUrl: 'http://127.0.0.1:5000/predict',
+      apiUrl: 'https://propiq-go62.onrender.com/predict',
       get apiBaseUrl() {
         const url = this.apiUrl;
         return url.endsWith('/predict') ? url.slice(0, -8) : url;
